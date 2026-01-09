@@ -23,4 +23,12 @@ http://127.0.0.1:8000/docs
 NOTES
 - Data is stored in memory (dictionaries) and will reset when you stop the server.
 - Market orders are simulated to execute immediately.
+
 - The portfolio automatically updates average price on new buy orders.
+- to place order:
+- {
+  "symbol": "BAJAJ-AUTO",
+  "quantity": 10,
+  "type": "BUY",
+  "style": "MARKET"
+}
